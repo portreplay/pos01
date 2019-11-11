@@ -7,7 +7,8 @@
             <div class="col-md-12 left-reset">
                 <div class="col-md-4 left-reset">
                     <label for="kd_penjualan">Kode Penjualan</label>
-                    <input type="text" name="kd_penjualan" id="kd_penjualan" class="form-control">
+					<!-- //-- PERBAIKAN | Tambah required untuk mencegah peluang data barang lolos tanpa kode -->
+                    <input type="text" name="kd_penjualan" id="kd_penjualan" class="form-control" required>
                 </div>
                 <div class="col-md-8 text-right right-reset">
                     <a href="javascript:void(0)" class="btn btn-sm btn-info" id="tambah_barang">Tambah Barang</a>
