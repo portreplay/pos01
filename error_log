@@ -1,0 +1,113 @@
+[10-Oct-2019 01:55:01 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:01 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:01 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:01 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:55:03 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:03 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:03 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:03 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:55:04 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:04 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:04 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:04 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:55:04 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:04 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:04 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:04 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:55:17 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:17 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:17 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:55:17 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:57:48 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:57:48 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:57:48 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:57:48 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:57:49 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:57:49 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:57:49 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:57:55 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:57:55 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:57:55 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:58:10 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:58:10 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:58:10 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:58:12 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:58:12 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:58:12 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:58:12 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:58:15 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:58:15 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:58:15 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:11 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:11 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:11 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:12 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:12 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:12 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:12 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:59:14 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:14 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:14 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:14 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:59:15 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:15 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:15 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:15 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:59:15 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:15 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:15 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/logout.php on line 2
+[10-Oct-2019 01:59:15 UTC] PHP Fatal error:  Call to undefined function sudah_login() in /home/portrepl/pos.portreplay.id/logout.php on line 3
+[10-Oct-2019 01:59:16 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:16 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:16 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:28 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:28 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:28 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:29 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:29 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:29 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 01:59:32 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:32 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:32 UTC] PHP Fatal error:  require(): Failed opening required 'database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:33 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:33 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:33 UTC] PHP Fatal error:  require(): Failed opening required 'database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:34 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:34 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:34 UTC] PHP Fatal error:  require(): Failed opening required 'database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:34 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:34 UTC] PHP Warning:  require(database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 01:59:34 UTC] PHP Fatal error:  require(): Failed opening required 'database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:04 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:04 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:04 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:06 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:06 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:06 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:10 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:10 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:10 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:14 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:14 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:14 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:16 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:16 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:16 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/sys_control.php on line 3
+[10-Oct-2019 02:00:17 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:17 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:00:17 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:04:36 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:04:36 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[10-Oct-2019 02:04:36 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[11-Oct-2019 16:11:56 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[11-Oct-2019 16:11:56 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[11-Oct-2019 16:11:56 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[12-Oct-2019 02:25:18 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[12-Oct-2019 02:25:18 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[12-Oct-2019 02:25:18 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[23-Oct-2019 05:35:19 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[23-Oct-2019 05:35:19 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[23-Oct-2019 05:35:19 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
+[23-Oct-2019 05:35:22 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[23-Oct-2019 05:35:22 UTC] PHP Warning:  require(gudang/database/mysql.php): failed to open stream: No such file or directory in /home/portrepl/pos.portreplay.id/init.php on line 3
+[23-Oct-2019 05:35:22 UTC] PHP Fatal error:  require(): Failed opening required 'gudang/database/mysql.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/portrepl/pos.portreplay.id/init.php on line 3
