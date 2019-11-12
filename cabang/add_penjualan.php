@@ -310,6 +310,9 @@
             if(kd_penjualan == '') {
                 swal("Terdapat Kesalahan", "Kode Penjualan masih kosong", "error");
                 
+				//-- PERBAIKAN | Menghilangkan duplikasi data barang
+				list_penjualan_data = [];
+				
             }else {
                  $.ajax({
                     url: 'core/send_data/cek_stok.php',
