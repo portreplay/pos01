@@ -165,5 +165,13 @@
         }
         return $total_pendapatan;
     }
+	
+	function get_kd_pelanggan_user($kd_pegawai) {
+		global $mysqli;
+		$sql = "SELECT kd_pelanggan FROM tbl_pegawai WHERE kd_pegawai='$kd_pegawai'";
+		$query = $mysqli->query($sql);
+		$f_kd_pelanggan = $query->fetch_array();
+		return $f_kd_pelanggan['kd_pelanggan']; 
+	}
 
 ?>

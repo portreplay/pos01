@@ -19,11 +19,15 @@
                 <?php 
                   $get_data_toko = $mysqli->query("SELECT * FROM tbl_pelanggan");
                   while($data_toko_pelanggan = $get_data_toko->fetch_array()) {
+					if(get_kd_pelanggan_user($_SESSION['kd_pegawai']) == $data_toko_pelanggan['kd_pelanggan']){
                 ?>
 
-                  <li <?php if(get_toko_id()==$data_toko_pelanggan['kd_pelanggan']) {?> class="toko_active" <?php } ?>><a href="toko.php?following=<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>"><?php echo $data_toko_pelanggan['alamat']; ?></a></li>
+                  <li <?php if(get_kd_pelanggan_user($_SESSION['kd_pegawai'])==$data_toko_pelanggan['kd_pelanggan']) {?> class="toko_active" <?php } ?>><a href="toko.php?following=<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>"><?php echo $data_toko_pelanggan['alamat']; ?></a></li>
                 
-                <?php } ?>
+                <?php 
+					}
+				  }
+				?>
               </ul>
             </li>
             <li <?php if(alamat()=='terjual.php') { ?>class="active" <?php } ?>>

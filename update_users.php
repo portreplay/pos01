@@ -54,9 +54,26 @@
 					</select>
 				</div>
 			</div>
+			<div class="form-group pelanggan" style="display:none;">
+				<label for="kd_pelanggan">Alamat Cabang *</label>
+				<select name="kd_pelanggan" id="kd_pelanggan" class="form-control">
+					<option value="000">-- Pilih Toko --</option>
+					<?php 
+					  $get_data_toko = $mysqli->query("SELECT * FROM tbl_pelanggan");
+					  while($data_toko_pelanggan = $get_data_toko->fetch_array()) {
+							$selected ='';
+							if($data_pegawai['kd_pelanggan'] == $data_toko_pelanggan['kd_pelanggan']) {
+								$selected = 'selected';
+							}
+					?>
+						<option <?php echo $selected; ?> value="<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>"><?php echo $data_toko_pelanggan['alamat']; ?></option>
+					<?php } ?>
+				</select>
+			</div>
 			<button type="submit" class="btn btn-primary">Update Pengguna</button>
 			<button type="button" class="btn btn-info" onclick="window.location='users.php'">Batal</button>
 		</form>
+		<br><br>
 	</div>
 	<div class="col-md-6">
 		<legend>Petunjuk Pengisian Form</legend>
@@ -141,6 +158,24 @@
 	        });
 	    e.preventDefault();
 	    });
+		
+		var edRole = $("select#role").val();
+		if(edRole == 'cabang'){
+			$( "div.pelanggan" ).show();
+		}else{
+			$("select#kd_pelanggan").val("000");
+			$( "div.pelanggan" ).hide();
+		}
+		$('select#role').on('change', function() {
+			var valRole = $(this).val();
+			
+			if(valRole == 'cabang'){
+				$( "div.pelanggan" ).show();
+			}else{
+				$("select#kd_pelanggan").val("000");
+				$( "div.pelanggan" ).hide();
+			}
+		});
 	});
 </script>
 <?php } ?>
