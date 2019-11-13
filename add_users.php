@@ -42,15 +42,35 @@
 				<div class="form-group">
 					<label for="role">Role *</label>
 					<select name="role" id="role" class="form-control" required="required">
+						<option value="000">-- Pilih Cabang --</option>
 						<option value="cabang">Cabang</option>
 						<option value="gudang">Gudang</option>
 						<option value="multi">Multi Akses</option>
 					</select>
 				</div>
 			</div>
+			<div class="form-group pelanggan" style="display:none;">
+				<label for="kd_pelanggan">Alamat Cabang *</label>
+					<?php 
+					  $get_data_toko = $mysqli->query("SELECT * FROM tbl_pelanggan");
+					  $i=0;
+					  while($data_toko_pelanggan = $get_data_toko->fetch_array()) {
+					?>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" class="kd_pelanggan akses-toko" name="kd_pelanggan[<?php echo $i?>][kd_pelanggan]" value="<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>">
+								<?php echo $data_toko_pelanggan['alamat']; ?>
+							</label>
+						</div>
+					<?php
+						$i++;
+						} 
+					?>
+			</div>
 			<button type="submit" class="btn btn-primary">Simpan</button>
 			<button type="button" class="btn btn-info" onclick="window.location='users.php'">Kembali</button>
 		</form>
+		<br><br>
 	</div>
 	<div class="col-md-6">
 		<legend>Petunjuk Pengisian Form</legend>
@@ -140,7 +160,18 @@
 	            	}
 	            }
 	        });
-	    e.preventDefault();
-	    })
+			e.preventDefault();
+	    });
+		
+		$('select#role').on('change', function() {
+			var valRole = $(this).val();
+			
+			if(valRole == 'cabang'){
+				$( "div.pelanggan" ).show();
+			}else{
+				$('input.akses-toko').prop('checked', false);
+				$( "div.pelanggan" ).hide();
+			}
+		});
 	});
 </script>

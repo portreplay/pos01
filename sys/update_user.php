@@ -34,6 +34,15 @@
 
 			$update_user = $mysqli->query($sql_update_user);
 			if($update_user) {
+				$delete_permissions = $mysqli->query("DELETE FROM tbl_pegawai_pelanggan WHERE kd_pegawai='$kd_pegawai'");
+				if($delete_permissions){
+					if(isset($_POST['kd_pelanggan'])){
+						foreach($_POST['kd_pelanggan'] as $kd){
+							$kd_pelanggan = $kd['kd_pelanggan'];
+							$add_permissions = $mysqli->query("INSERT INTO tbl_pegawai_pelanggan (kd_pegawai, kd_pelanggan) VALUES ('$kd_pegawai','$kd_pelanggan')");
+						}
+					}
+				}
 				echo 'ok';
 			}else {
 				echo 'error';

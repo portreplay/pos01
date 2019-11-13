@@ -54,9 +54,36 @@
 					</select>
 				</div>
 			</div>
+			
+			<div class="form-group pelanggan" style="display:none;">
+				<label for="kd_pelanggan">Alamat Cabang *</label>
+					<?php 
+					  $get_data_toko = $mysqli->query("SELECT * FROM tbl_pelanggan");
+					  $get_data_pegawai_pelanggan = $mysqli->query("SELECT * FROM tbl_pegawai_pelanggan WHERE kd_pegawai='$kd_pegawai'");
+					  $i=0;
+					  while($data_toko_pelanggan = $get_data_toko->fetch_array()) {
+						  $checked = "";
+						  foreach($get_data_pegawai_pelanggan as $akses){
+							  if($data_toko_pelanggan['kd_pelanggan'] == $akses['kd_pelanggan']){
+								$checked = "checked";
+							  }
+						  }
+					?>
+						<div class="checkbox">
+							<label>
+								<input <?php echo $checked;?> type="checkbox" class="kd_pelanggan akses-toko" name="kd_pelanggan[<?php echo $i?>][kd_pelanggan]" value="<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>">
+								<?php echo $data_toko_pelanggan['alamat']; ?>
+							</label>
+						</div>
+					<?php
+						$i++;
+						} 
+					?>
+			</div>
 			<button type="submit" class="btn btn-primary">Update Pengguna</button>
 			<button type="button" class="btn btn-info" onclick="window.location='users.php'">Batal</button>
 		</form>
+		<br><br>
 	</div>
 	<div class="col-md-6">
 		<legend>Petunjuk Pengisian Form</legend>
@@ -141,6 +168,24 @@
 	        });
 	    e.preventDefault();
 	    });
+		
+		var edRole = $("select#role").val();
+		if(edRole == 'cabang'){
+			$( "div.pelanggan" ).show();
+		}else{
+			$('input.akses-toko').prop('checked', false);
+			$( "div.pelanggan" ).hide();
+		}
+		$('select#role').on('change', function() {
+			var valRole = $(this).val();
+			
+			if(valRole == 'cabang'){
+				$( "div.pelanggan" ).show();
+			}else{
+				$('input.akses-toko').prop('checked', false);
+				$( "div.pelanggan" ).hide();
+			}
+		});
 	});
 </script>
 <?php } ?>
