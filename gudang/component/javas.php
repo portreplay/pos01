@@ -9,7 +9,7 @@
     <script src="../vendor/adminlte/js/app.min.js"></script>
     <script src="app/main.js"></script>
     <?php 
-    	if(alamat() == 'barang.php' or alamat() == 'diskon.php' or alamat() == 'penjualan.php' or alamat() == 'retur.php') {
+    	if(alamat() == 'barang.php' or alamat() == 'diskon.php' or alamat() == 'penjualan.php' or alamat() == 'penerimaan_barang.php' or alamat() == 'retur.php') {
     ?>
     <script src="../vendor/datepicker/js/bootstrap-datepicker.min.js"></script>
     

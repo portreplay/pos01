@@ -170,10 +170,7 @@
                                   
                                 var WindowObject = window.open("", "PrintWindow", "width=1000,height=700,top=50,left=50,toolbars=no,scrollbars=yes,status=no,resizable=yes");
                                 WindowObject.document.writeln(data);
-                                WindowObject.document.close();
                                 WindowObject.focus();
-                                WindowObject.print();
-                                WindowObject.close();
                             }
                         });
                         

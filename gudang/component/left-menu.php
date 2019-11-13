@@ -13,6 +13,9 @@
             <li <?php if(alamat()=='barang.php') { ?>class="active" <?php } ?>>
               <a href="barang.php"><i class="fa fa-database"></i> Master Data</a>
             </li>
+			<li <?php if(alamat()=='penerimaan_barang.php') { ?>class="active" <?php } ?>>
+              <a href="penerimaan_barang.php"><i class="fa fa-database"></i>Penerimaan Barang</a>
+            </li>
             <li <?php if(alamat()=='penjualan.php') { ?>class="active" <?php } ?>>
               <a href="penjualan.php"><i class="fa fa-ticket"></i> Penjualan</a>
             </li>

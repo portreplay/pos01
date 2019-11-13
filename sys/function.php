@@ -60,4 +60,15 @@
 			return false;
 		}
 	}
+	function cek_supplier($kd_supplier) {
+		global $mysqli;
+		$sql = "SELECT kd_supplier FROM tbl_supplier WHERE kd_supplier='$kd_supplier'";
+		$query = $mysqli->query($sql);
+
+		if($query->num_rows == 1) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 ?>

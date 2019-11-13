@@ -3,7 +3,7 @@
     var source = {
         datatype: "json",
         
-        datafields: [{ name: 'kd_penjualan'}, { name: 'kd_pelanggan'}, { name: 'total_harga'}, { name: 'tanggal_penjualan'}, { name: 'total_harga'},{ name: 'total_item'}],
+        datafields: [{ name: 'kd_penerimaan_barang'}, { name: 'kd_supplier'}, { name: 'total_harga'}, { name: 'tanggal_penerimaan_barang'}, { name: 'total_harga'},{ name: 'total_item'}],
         updaterow: function (rowid, rowdata, commit) {
             // synchronize with the server - send update command
             // call commit with parameter true if the synchronization with the server is successful 
@@ -27,14 +27,14 @@
             // });
             
         },
-        url: 'core/get_data/penjualan.php',
+        url: 'core/get_data/penerimaan_barang.php',
         filter: function() {
             // update the grid and send a request to the server.
-            $("#penjualan").jqxGrid('updatebounddata');
+            $("#penerimaan_barang").jqxGrid('updatebounddata');
         },
         sort: function() {
             // update the grid and send a request to the server.
-            $("#penjualan").jqxGrid('updatebounddata', 'sort');
+            $("#penerimaan_barang").jqxGrid('updatebounddata', 'sort');
         },
         root: 'Rows',
         beforeprocessing: function(data) {
@@ -50,7 +50,7 @@
             alert(error);
         }
     });
-    $("#penjualan").jqxGrid({
+    $("#penerimaan_barang").jqxGrid({
         source: dataadapter,
         theme: 'darkblue',
         width: '100%',
@@ -76,15 +76,15 @@
                     sortable: false, 
                 }, {
                     text: 'Tanggal',
-                    datafield: 'tanggal_penjualan',
+                    datafield: 'tanggal_penerimaan_barang',
                     editable: false
                 }, {
-                    text: 'Kode Penjualan',
-                    datafield: 'kd_penjualan',
+                    text: 'Kode penerimaan_barang',
+                    datafield: 'kd_penerimaan_barang',
                     editable: false
                 }, {
-                    text: 'Kode Toko',
-                    datafield: 'kd_pelanggan',
+                    text: 'Kode Supplier',
+                    datafield: 'kd_supplier',
                     editable: false
                  }, {
                     text: 'Jumlah',
@@ -111,12 +111,12 @@
                     },
                     buttonclick: function(row) {
                         var editrow = row;
-                        var data_penjualan = $("#penjualan").jqxGrid('getrowdata', editrow);
-                        var kd_penjualan = data_penjualan.kd_penjualan;
+                        var data_penerimaan_barang = $("#penerimaan_barang").jqxGrid('getrowdata', editrow);
+                        var kd_penerimaan_barang = data_penerimaan_barang.kd_penerimaan_barang;
                         
                          BootstrapDialog.show({
-                            title: '<i class="fa fa-newspaper-o"></i> Detail Penjualan',
-                            message: $('<div></div>').load('modal/view-detail-penjualan.php?follow='+kd_penjualan),
+                            title: '<i class="fa fa-newspaper-o"></i> Detail penerimaan_barang',
+                            message: $('<div></div>').load('modal/view-detail-penerimaan_barang.php?follow='+kd_penerimaan_barang),
                             animate: false,
                             type: BootstrapDialog.TYPE_INFO,
                             size: BootstrapDialog.SIZE_WIDE
@@ -136,12 +136,12 @@
                     },
                     buttonclick: function(row) {
                         var editrow = row;
-                        var data_penjualan = $("#penjualan").jqxGrid('getrowdata', editrow);
-                        var kd_penjualan = data_penjualan.kd_penjualan;
+                        var data_penerimaan_barang = $("#penerimaan_barang").jqxGrid('getrowdata', editrow);
+                        var kd_penerimaan_barang = data_penerimaan_barang.kd_penerimaan_barang;
                         /* Delete Master Data */
                         swal({
                             title: "Konfirmasi dari anda diperlukan",   
-                            text: "Apakah anda yakin untuk menghapus data penjualan yang anda pilih ?",   
+                            text: "Apakah anda yakin untuk menghapus data penerimaan_barang yang anda pilih ?",   
                             type: "warning",   
                             showCancelButton: true,   
                             confirmButtonColor: "#E84E40",   
@@ -152,13 +152,13 @@
                         function(isConfirm){
                             if (isConfirm) {   
                                 $.ajax({
-                                        url: 'core/send_data/delete_penjualan.php',
+                                        url: 'core/send_data/delete_penerimaan_barang.php',
                                         type: 'post',
-                                        data: {kd_penjualan: kd_penjualan},
+                                        data: {kd_penerimaan_barang: kd_penerimaan_barang},
                                         success: function (data) {
                                             if(data.trim() == 'ok') {
-                                                swal("Sukses", "Data Penjualan berhasil dihapus", "success");
-                                                $("#penjualan").jqxGrid('updatebounddata');
+                                                swal("Sukses", "Data penerimaan_barang berhasil dihapus", "success");
+                                                $("#penerimaan_barang").jqxGrid('updatebounddata');
                                             }else {
                                                 alert('terjadi kesalahan diprogram');
                                             }
@@ -181,22 +181,15 @@
                     },
                     buttonclick: function(row) {
                         var editrow = row;
-                        var data_penjualan = $("#penjualan").jqxGrid('getrowdata', editrow);
-                        var kd_penjualan = data_penjualan.kd_penjualan;
+                        var data_penerimaan_barang = $("#penerimaan_barang").jqxGrid('getrowdata', editrow);
+                        var kd_penerimaan_barang = data_penerimaan_barang.kd_penerimaan_barang;
                         $.ajax({
-                            url: 'report_penjualan.php?follow='+kd_penjualan,
+                            url: 'report_penerimaan_barang.php?follow='+kd_penerimaan_barang,
                             type: 'GET',
                             dataType: 'html',
                             success: function(data) {
-                            /*      
+                                  
                                 var WindowObject = window.open("", "PrintWindow", "width=1000,height=700,top=50,left=50,toolbars=no,scrollbars=yes,status=no,resizable=yes");
-                                WindowObject.document.writeln(data);
-                                WindowObject.document.close();
-                                WindowObject.focus();
-                                WindowObject.print();
-                                WindowObject.close();
-							*/
-								var WindowObject = window.open("", "PrintWindow", "width=1000,height=700,top=50,left=50,toolbars=no,scrollbars=yes,status=no,resizable=yes");
                                 WindowObject.document.writeln(data);
                             }
                         })

@@ -6,5 +6,9 @@
 			unset($_SESSION['sesi_barang']);
 			echo json_encode(array('clear_status'=>true));
 		}
+		if($ref == 'penerimaan_barang') {
+			unset($_SESSION['sesi_barang']);
+			echo json_encode(array('clear_status'=>true));
+		}
 	}
 ?>

@@ -3,8 +3,8 @@
 	/* Database Configuration And Connecting to Mysql Database */
 	$db_status = false;
 	$host = "localhost";
-	$user = "portrepl_usrPOS";
-	$pass = "123PortReplay456";
+	$user = "root";
+	$pass = "";
 	$database_name = "portrepl_pos";
 
 	$mysqli = new mysqli($host, $user, $pass, $database_name);
