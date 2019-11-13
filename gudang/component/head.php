@@ -15,7 +15,7 @@
     <link href="../vendor/morris/morris.css" rel="stylesheet">
 
     <?php 
-        if(alamat() == 'barang.php' or alamat() == 'diskon.php' or alamat() == 'penjualan.php' ) {
+        if(alamat() == 'barang.php' or alamat() == 'diskon.php' or alamat() == 'penjualan.php' or alamat() == 'penerimaan_barang.php' ) {
     ?>
     <link rel="stylesheet" href="../vendor/datepicker/css/bootstrap-datepicker3.min.css">
     <link rel="stylesheet" href="../vendor/jqwidgets/styles/jqx.base.css">

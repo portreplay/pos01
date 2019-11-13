@@ -17,6 +17,7 @@
                         <li <?php if(file_on()=='sys_control.php') { ?>class="active"<?php } ?>><a href="sys_control.php">Statistik</a></li>
                         <li <?php if(file_on()=='users.php') { ?>class="active"<?php } ?>><a href="users.php">Pegawai</a></li>
                         <li <?php if(file_on()=='toko.php') { ?>class="active"<?php } ?>><a href="toko.php">Pelanggan/Toko</a></li>
+                        <li <?php if(file_on()=='supplier.php') { ?>class="active"<?php } ?>><a href="supplier.php">Supplier</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="gudang/">Ke Gudang</a></li>

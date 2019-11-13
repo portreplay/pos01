@@ -151,6 +151,9 @@
                 </div>
             </div>
         </div>
+		<script>
+			window.print();
+		</script>
     <?php include 'component/javas.php'; ?>
     </body>
 </html>

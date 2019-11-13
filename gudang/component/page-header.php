@@ -54,4 +54,15 @@
             <li class="active">Penjualan</li>
           </ol>
           <?php } ?>
+		  
+		  <?php if(alamat()=='penerimaan_barang.php') { ?>
+          <h1>
+            Penerimaan Barang
+            <small>Data Penerimaan Barang</small>
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Penerimaan Barang</li>
+          </ol>
+          <?php } ?>
         </section>
