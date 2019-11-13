@@ -18,15 +18,25 @@
               <ul class="treeview-menu">
                 <?php 
                   $get_data_toko = $mysqli->query("SELECT * FROM tbl_pelanggan");
-                  while($data_toko_pelanggan = $get_data_toko->fetch_array()) {
-					if(get_kd_pelanggan_user($_SESSION['kd_pegawai']) == $data_toko_pelanggan['kd_pelanggan']){
+                  while($data_toko_pelanggan = $get_data_toko->fetch_array()){
+					if(is_admin($_SESSION['kd_pegawai'])===true){
                 ?>
 
-                  <li <?php if(get_kd_pelanggan_user($_SESSION['kd_pegawai'])==$data_toko_pelanggan['kd_pelanggan']) {?> class="toko_active" <?php } ?>><a href="toko.php?following=<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>"><?php echo $data_toko_pelanggan['alamat']; ?></a></li>
+					<li <?php if(get_toko_id()==$data_toko_pelanggan['kd_pelanggan']) {?> class="toko_active" <?php } ?>><a href="toko.php?following=<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>"><?php echo $data_toko_pelanggan['alamat']; ?></a></li>
                 
                 <?php 
+					}else{
+					$kd_pegawai = $_SESSION['kd_pegawai'];
+					$get_data_pegawai_pelanggan = $mysqli->query("SELECT * FROM tbl_pegawai_pelanggan WHERE kd_pegawai='$kd_pegawai'");
+						foreach($get_data_pegawai_pelanggan as $akses){
+							if($data_toko_pelanggan['kd_pelanggan'] == $akses['kd_pelanggan']){
+				?>
+					<li <?php if(get_toko_id()==$data_toko_pelanggan['kd_pelanggan']) {?> class="toko_active" <?php } ?>><a href="toko.php?following=<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>"><?php echo $data_toko_pelanggan['alamat']; ?></a></li>
+				<?php
+							}
+						}
 					}
-				  }
+					}
 				?>
               </ul>
             </li>

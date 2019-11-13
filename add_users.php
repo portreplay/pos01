@@ -51,15 +51,21 @@
 			</div>
 			<div class="form-group pelanggan" style="display:none;">
 				<label for="kd_pelanggan">Alamat Cabang *</label>
-				<select name="kd_pelanggan" id="kd_pelanggan" class="form-control">
-					<option value="000">-- Pilih Toko --</option>
 					<?php 
 					  $get_data_toko = $mysqli->query("SELECT * FROM tbl_pelanggan");
+					  $i=0;
 					  while($data_toko_pelanggan = $get_data_toko->fetch_array()) {
 					?>
-						<option value="<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>"><?php echo $data_toko_pelanggan['alamat']; ?></option>
-					<?php } ?>
-				</select>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" class="kd_pelanggan akses-toko" name="kd_pelanggan[<?php echo $i?>][kd_pelanggan]" value="<?php echo $data_toko_pelanggan['kd_pelanggan']; ?>">
+								<?php echo $data_toko_pelanggan['alamat']; ?>
+							</label>
+						</div>
+					<?php
+						$i++;
+						} 
+					?>
 			</div>
 			<button type="submit" class="btn btn-primary">Simpan</button>
 			<button type="button" class="btn btn-info" onclick="window.location='users.php'">Kembali</button>
@@ -163,7 +169,7 @@
 			if(valRole == 'cabang'){
 				$( "div.pelanggan" ).show();
 			}else{
-				$("select#kd_pelanggan").val("000");
+				$('input.akses-toko').prop('checked', false);
 				$( "div.pelanggan" ).hide();
 			}
 		});
