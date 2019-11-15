@@ -86,9 +86,9 @@
                         $no = 0;
                         if(search_mode()===true) {
                             $keyword = $_GET['q'];
-                            $get_supplier = $mysqli->query("SELECT * FROM tbl_supplier WHERE nm_supplier LIKE '%{$keyword}%' ORDER BY kd_supplier DESC");
+                            $get_supplier = $mysqli->query("SELECT * FROM tbl_supplier WHERE nm_supplier LIKE '%{$keyword}%' ORDER BY id DESC");
                         }else {
-                            $get_supplier = $mysqli->query("SELECT * FROM tbl_supplier ORDER BY kd_supplier DESC");
+                            $get_supplier = $mysqli->query("SELECT * FROM tbl_supplier ORDER BY id DESC");
                         }
                         while($data_supplier = $get_supplier->fetch_array()) {
                             $no++;
