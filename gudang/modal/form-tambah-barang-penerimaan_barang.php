@@ -44,7 +44,7 @@
 					dataType: 'json',
 					data: {kd_barang: kd_barang},
 					success: function(stok){
-						if(stok.stok != 0 && stok.status == 'ada') {
+						if(stok.stok > -1 && stok.status == 'ada') {
 							var template_info = '<div class="form-group"><label for="kd_barang">Kode Barang </label><input type="text" class="form-control" name="kd_barang" value="'+kd_barang+'" readonly="readonly"></div><div class="form-group"><label for="harga">Harga</label><input type="text" class="form-control" name="harga" value="'+stok.harga+'" readonly="readonly"></div><div class="form-group"><label for="stok">Ready Stok </label><input type="text" class="form-control" name="stok" value="'+stok.stok+'" readonly="readonly"></div>';
 							$('#product-info').html(template_info);
 							$('input[name="pengadaan"]').removeAttr('disabled');

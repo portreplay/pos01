@@ -332,7 +332,7 @@
                                     dataType: 'json',
                                     data: {kd_barang: kd_barang},
                                     success: function(data) {
-                                        if(data.stok_ada == true) {
+                                    
                                              
                                             $.ajax({
                                                 url: 'core/send_data/tambah_penerimaan_barang.php',
@@ -372,12 +372,7 @@
                                                 }
                                             });
                                         
-                                        }else {
-                                            
-                                            swal("Terdapat Kesalahan", "Stok Barang dengan kode barang: "+kd_barang+" sudah habis", "error");
-                                            return false;
                                         
-                                        }
                                     }
                                 });
                                 
