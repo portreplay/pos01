@@ -29,8 +29,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 left-reset">
-                    <h2>Port Replay</h2>
-                    <h4>Fashion Remaja</h4>
+                    <h2 class="report-title"><img src="images/logo.png">Port Replay</h2>
+                    <h4 class="report-sub-sub-title">Your Daily Casual Outfits With Affordable Price</h4>
                 </div>
                 <div class="clearfix"></div>
                 <hr>
@@ -92,7 +92,7 @@
                                 <table class="table">
                                     <tbody>
                                         <tr>
-                                            <td><b>Pelanggan </b></td>
+                                            <td><b>Pelanggan</b></td>
                                             <td>:</td>
                                             <td><?php echo $data_keterangan['nm_pelanggan']; ?></td>
                                         </tr>

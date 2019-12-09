@@ -29,8 +29,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 left-reset">
-                    <h2>Port Replay</h2>
-                    <h4>Fashion Remaja</h4>
+                    <h2 class="report-title"><img src="images/logo.png">Port Replay</h2>
+                    <h4 class="report-sub-sub-title">Your Daily Casual Outfits With Affordable Price</h4>
                 </div>
                 <div class="clearfix"></div>
                 <hr>
@@ -62,7 +62,7 @@
                         </table>
                     </div>
                     <div class="col-xs-12 left-reset report_heading">
-                        <h2 class="text-center title-box">Report penerimaan_barang Barang</h2>
+                        <h2 class="text-center title-box">Report Penerimaan Barang</h2>
                     </div>
                     <div class="col-xs-12 left-reset">
                         <div class="col-xs-10 left-reset">
@@ -70,12 +70,12 @@
                                 <table class="table">
                                     <tbody>
                                         <tr>
-                                            <td><b>Kode penerimaan_barang</b></td>
+                                            <td><b>Kode Penerimaan Barang</b></td>
                                             <td>:</td>
                                             <td><?php echo $data_keterangan['kd_penerimaan_barang']; ?></td>
                                         </tr>
                                         <tr>
-                                            <td><b>Tanggal penerimaan_barang</b></td>
+                                            <td><b>Tanggal Penerimaan Barang</b></td>
                                             <td>:</td>
                                             <td><?php echo $data_keterangan['tanggal_penerimaan_barang'];?></td>
                                         </tr>
@@ -92,7 +92,7 @@
                                 <table class="table">
                                     <tbody>
                                         <tr>
-                                            <td><b>supplier </b></td>
+                                            <td><b>supplier</b></td>
                                             <td>:</td>
                                             <td><?php echo $data_keterangan['nm_supplier']; ?></td>
                                         </tr>

@@ -31,8 +31,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 left-reset">
-                    <h2 class="report-title">Port Replay</h2>
-                    <h4 class="report-sub-title">Fashion Pria</h4>
+                <h2><img src="images/logo.png">Port Replay</h2>
+                    <h4 class="report-sub-sub-title">Your Daily Casual Outfits With Affordable Price</h4>
                 </div>
                 <div class="clearfix"></div>
                 <hr>
