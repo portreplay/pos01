@@ -146,6 +146,17 @@
                     </div>
                 </div>
             </div>
+			<div class="row">
+				<div class="col-xs-4 text-center">
+					Dibuat Oleh<br><br><br><br>(...............................)
+				</div>
+				<div class="col-xs-4 text-center">
+					Disetujui Oleh<br><br><br><br>(...............................)
+				</div>
+				<div class="col-xs-4 text-center">
+					Diterima Oleh<br><br><br><br>(...............................)
+				</div>
+			</div>
         </div>
 		<script>
 			window.print();
