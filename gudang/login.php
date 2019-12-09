@@ -19,7 +19,8 @@
     <body class="login-page">
         <div class="login-box">
             <div class="login-logo">
-                <a href="../../index2.html"><b>Port</b>Replay</a>
+            <img src="images/logo.png"></img>
+                <a href="../../index2.html"><b>Port </b>Replay</a>
                 <h3>Gudang Area</h3>
             </div><!--.login-logo -->
             <div class="login-box-body">

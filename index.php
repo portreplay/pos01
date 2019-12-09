@@ -18,6 +18,7 @@
     <body class="login-page">
         <div class="login-box">
             <div class="login-logo">
+            <img src="gudang/images/logo.png"></img>
                 <a href="index.php"><b>Port </b>Replay</a>
             </div><!--.login-logo -->
             <div class="login-box-body">
@@ -25,10 +26,10 @@
                     <div class="col-md-12 text-center">
                         <h4>Silahkan Login berdasarkan Jodesk Anda</h4>
                         <div class="col-md-6">
-                            <a href="gudang/" class="btn btn-lg btn-success" <?php if($db_status=== false) { ?> disabled="disabled" <?php } ?>>Gudang</a>
+                            <a href="gudang/" class="btn btn-lg btn-danger" <?php if($db_status=== false) { ?> disabled="disabled" <?php } ?>>Gudang</a>
                         </div>
                         <div class="col-md-6">
-                            <a href="cabang/" class="btn btn-lg btn-primary" <?php if($db_status=== false) { ?> disabled="disabled" <?php } ?>>Toko</a>
+                            <a href="cabang/" class="btn btn-lg btn-success" <?php if($db_status=== false) { ?> disabled="disabled" <?php } ?>>Toko</a>
                         </div>
                     </div>
                 </div>

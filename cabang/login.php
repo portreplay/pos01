@@ -19,7 +19,8 @@
     <body class="login-page">
         <div class="login-box">
             <div class="login-logo">
-                <a href="../../index2.html"><b>Port</b>Replay</a>
+            <img src="../gudang/images/logo.png"></img>
+                <a href="../../index2.html"><b>Port </b>Replay</a>
                 <h3>Toko Area</h3>
             </div><!--.login-logo -->
             <div class="login-box-body">
@@ -34,7 +35,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-6">    
-                            <a href="../gudang" class="btn btn-block btn-flat btn-success">Ke Gudang</a>
+                            <a href="../gudang" class="btn btn-block btn-flat btn-danger">Ke Gudang</a>
                         </div><!-- /.col -->
                         <div class="col-xs-6">
                             <button type="submit" class="btn btn-primary btn-block btn-flat">Masuk</button>
