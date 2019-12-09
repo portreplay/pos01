@@ -50,7 +50,7 @@
                         
                     </div>
                     <div class="col-md-3 reset-col text-right">
-                        <a href="?router=new"id="add-pelanggan" class="btn btn-sm btn-success"><i class="fa fa-pelanggan-plus"></i> Tambah Toko</a>
+                        <a href="?router=new"id="add-pelanggan" class="btn btn-sm btn-success"><i class="fa fa-plus"></i> Tambah Toko</a>
                     </div>
                 </div>
             </div>

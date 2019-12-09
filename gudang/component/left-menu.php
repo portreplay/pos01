@@ -14,16 +14,16 @@
               <a href="barang.php"><i class="fa fa-database"></i> Master Data</a>
             </li>
 			<li <?php if(alamat()=='penerimaan_barang.php') { ?>class="active" <?php } ?>>
-              <a href="penerimaan_barang.php"><i class="fa fa-database"></i>Penerimaan Barang</a>
+              <a href="penerimaan_barang.php"><i class="fa fa-truck"></i>Penerimaan Barang</a>
             </li>
             <li <?php if(alamat()=='penjualan.php') { ?>class="active" <?php } ?>>
-              <a href="penjualan.php"><i class="fa fa-ticket"></i> Penjualan</a>
+              <a href="penjualan.php"><i class="fa fa-bar-chart"></i> Penjualan</a>
             </li>
             <li>
-              <a href="retur.php"><i class="fa fa-retweet"></i> Retur <small class="label pull-right bg-red">3</small></a>
+              <a href="retur.php"><i class="fa fa-refresh"></i> Retur <small class="label pull-right bg-red">!</small></a>
             </li>
             <li>
-              <a href="laporankeuangan.php"><i class="fa fa-retweet"></i> Laporan Keuangan <small class="label pull-right bg-red">1</small></a>
+              <a href="#"><i class="fa fa-money"></i> Laporan Keuangan <small class="label pull-right bg-red">!</small></a>
             </li>
         
             <li class="treeview <?php if(alamat()=='import.php' or alamat() == 'export.php') { ?>active<?php } ?>">
@@ -32,7 +32,7 @@
               </a>
               <ul class="treeview-menu">
                 <li><a href="export.php"><i class="fa fa-cloud-download"></i> Export Barang</a></li>
-                <li><a href="import.php"><i class="fa fa-cloud-upload"></i> Import Barang</a></li>
+               <li><a href="import.php"><i class="fa fa-cloud-upload"></i> Import Barang  <small class="label pull-right bg-red">!</small></a></li>
               </ul>
             </li>
           </ul>

@@ -41,10 +41,10 @@
               </ul>
             </li>
             <li <?php if(alamat()=='terjual.php') { ?>class="active" <?php } ?>>
-              <a href="terjual.php"><i class="fa fa-retweet"></i> Terjual</a>
+              <a href="terjual.php"><i class="fa fa-navicon"></i> Terjual</a>
             </li>
             <li <?php if(alamat()=='retur.php') { ?>class="active" <?php } ?>>
-              <a href="retur.php"><i class="fa fa-refresh"></i>  Retur Barang <small class="label pull-right bg-red">3</small></a>
+              <a href="retur.php"><i class="fa fa-refresh"></i>  Retur Barang <small class="label pull-right bg-red">!</small></a>
             </li>
           </ul>
         </section>
